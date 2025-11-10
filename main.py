@@ -23,8 +23,8 @@ def main():
     wortzahl = count_words(text)
     print(f"Found {wortzahl} total words")
     character_dict = count_characters(text)
-    x=sortierer(character_dict)
-    print(x)
+    
+    print(sortierer(character_dict))
     
 
 
